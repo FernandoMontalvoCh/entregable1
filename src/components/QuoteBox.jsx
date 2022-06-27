@@ -22,9 +22,9 @@ const QuoteBox = () => {
     document.body.style = `background: ${color}`;
     return (
         <div className="card" style={{color:color}}>
-        <h4><i class="fa-solid fa-quote-left fa-xl"></i> {quote[index].quote}</h4>
-        <h3>{quote[index].author}</h3>
         <Img />
+        <h4 className="card-h4"><i class="fa-solid fa-quote-left fa-4x" ></i> {quote[index].quote}</h4>
+        <h3>{quote[index].author}</h3>
         <button onClick={changePhrase} className="button-c" style={{background:color}}><i class="fa-solid fa-circle-arrow-right"></i></button>
       </div>
     );

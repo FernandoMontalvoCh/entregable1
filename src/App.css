@@ -62,6 +62,10 @@ button {
 }
 
 .img-c {
-  text-align: left;
-  margin-left: 2rem;
+  text-align: center;
+}
+
+.card-h4 {
+  display: flex;
+  justify-content: space-around;
 }
